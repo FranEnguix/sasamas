@@ -1,0 +1,19 @@
+{
+    "simulator": {
+        "address": "127.0.0.1",
+        "commandPort": 6066,
+        "imagePort": 6067
+    },
+    "agents": [
+        {
+            "name": "agente1",
+            "at": "localhost",
+            "password": "xmppserver",
+            "imageBufferSize": 80,
+            "imageFolderName": "captures1",
+            "enableAgentCollision": true,
+            "prefabName": "Tractor",
+            "position": "Spawner 1"
+        }
+    ]
+}

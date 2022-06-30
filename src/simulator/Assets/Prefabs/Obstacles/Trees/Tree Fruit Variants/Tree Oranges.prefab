@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4086153992876921916
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5089555319820773799, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_Name
+      value: Tree Oranges
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5089555319820773819, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757024919829881354, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: fruit
+      value: 
+      objectReference: {fileID: 4898035385216084663, guid: 69de34c890727934e98f6414b85e4d80, type: 3}
+    - target: {fileID: 5757024919829881354, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: healthy
+      value: 
+      objectReference: {fileID: 2100000, guid: c3b96d920b47e8b4fa2f77049cd2b944, type: 2}
+    - target: {fileID: 5757024919829881354, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: unhealthy
+      value: 
+      objectReference: {fileID: 2100000, guid: e9c9afaf0f040c243b6d67bc1d7fab3f, type: 2}
+    - target: {fileID: 5757024919829881354, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: texturesFolderPath
+      value: C:\Users\Fran\Pictures\test\
+      objectReference: {fileID: 0}
+    - target: {fileID: 5757024919829881354, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
+      propertyPath: fruitPositions.Array.data[1].y
+      value: 2.4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3285810bab21b22458454f1f3e0c4781, type: 3}
