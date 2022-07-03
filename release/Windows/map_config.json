@@ -1,0 +1,21 @@
+{
+    "origin": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 15.0
+    },
+    "distance": {
+        "x": 6,
+        "y": 3
+    },
+    "symbolToPrefabMap": [
+        {
+            "symbol": "T",
+            "prefabName": "Tree"
+        },
+        {
+            "symbol": "A",
+            "prefabName": "Spawner"
+        }
+    ]
+}
