@@ -25,6 +25,7 @@ public class MapLoader : MonoBehaviour
         prefabs = PopulateInstantiablePrefabs(instantiablePrefabs);
         objects = LoadMapFileInfo(mapFileName, configFileName);
         PlaceLightsAndObjects(objects, prefabs);
+        // Debug.Log("Texture image time in millis: " + textureLoader.GetTextureLoadTimeMillis());
         //var tf = DateTime.Now;
         //LogTime(t0, tf);
     }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
@@ -6,15 +7,26 @@ using UnityEngine;
 public class TextureLoader
 {
     private Dictionary<string, Texture2D[]> textures;
+    private double time;
+    private int images;
 
     public TextureLoader() {
+        time = 0;
+        images = 0;
         textures = new Dictionary<string, Texture2D[]>();
+    }
+
+    public double GetTextureLoadTimeMillis() {
+        return time / images;
     }
 
     public Texture2D[] GetTextures(string texturesFolderPath) {
         Texture2D[] loadedTextures;
         if (!textures.ContainsKey(texturesFolderPath)) {
+            var t0 = DateTime.Now;
             loadedTextures = LoadTexturesFromDisk(texturesFolderPath);
+            time += (DateTime.Now - t0).TotalMilliseconds;
+            images += loadedTextures.Length;
             if (loadedTextures.Length > 0)
                 textures.Add(texturesFolderPath, loadedTextures);
         } else

@@ -123,11 +123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 3492307209503877921}
-  color:
-  - {r: 0.8301887, g: 0.29726195, b: 0.105731584, a: 0}
-  - {r: 0.6378724, g: 0.8867924, b: 0.5981666, a: 0}
-  - {r: 0.22761661, g: 0.3630927, b: 0.8773585, a: 0}
-  - {r: 0.8018868, g: 0.28368637, b: 0.75793266, a: 0}
   coloredPart: {fileID: 8467093108867031497}
   distanceTargetThreshold: 0.5
   stuckSecondsThreshold: 1
@@ -144,8 +139,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bc46c74d97ec6c448189e8867d19e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  captureWidth: 
-  captureHeight: 
   captureDimensions:
   - {x: 224, y: 224}
   cameras:

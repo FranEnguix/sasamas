@@ -14,6 +14,31 @@
             "prefabName": "Tree"
         },
         {
+            "symbol": "B",
+            "prefabName": "Tree Fruit Variant",
+            "dataFolder": "C:/Users/Fran/Pictures/oranges/black spot"
+        },
+        {
+            "symbol": "C",
+            "prefabName": "Tree Fruit Variant",
+            "dataFolder": "C:/Users/Fran/Pictures/oranges/canker"
+        },
+        {
+            "symbol": "G",
+            "prefabName": "Tree Fruit Variant",
+            "dataFolder": "C:/Users/Fran/Pictures/oranges/greening"
+        },
+        {
+            "symbol": "H",
+            "prefabName": "Tree Fruit Variant",
+            "dataFolder": "C:/Users/Fran/Pictures/oranges/healthy"
+        },
+        {
+            "symbol": "S",
+            "prefabName": "Tree Fruit Variant",
+            "dataFolder": "C:/Users/Fran/Pictures/oranges/scab"
+        },
+        {
             "symbol": "A",
             "prefabName": "Spawner"
         }
